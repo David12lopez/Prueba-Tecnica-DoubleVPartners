@@ -6,6 +6,8 @@ Este proyecto de prueba realizado por David Alexander López Manrique, en el que
 3. Ejecuta el comando "npm install"
 4. Luego, ejecuta el comando " npx cypress open"
 5. Se ejecuta el proyecto a testear
+#Video
+En el siguiente enlace puede encontrar el video a la evidencia del caso automatizado: https://drive.google.com/drive/folders/1qrDpCMAY19FNODmd08wFTPwU7T2-MHFv?usp=sharing
 # Licencias
 Cypress versión 12.7.0
 # Contacto 
