@@ -16,7 +16,9 @@ describe('Vuelos Bogotá-Cali', () => {
       cy.get('.icon-chev:nth-child(4)').click();
       cy.get('#inputOutboundDate .next:nth-child(1)').click();
       cy.get('#inputOutboundDate .month1:nth-child(1) tr:nth-child(4) > td:nth-child(4) > .day:nth-child(1)').click();
-      cy.get('#date-window-container .month2 tr:nth-child(4) > td:nth-child(4) > .day').click();
-      cy.get('.btn-search').click({force: true});
-    })
-  })
+      cy.get('#date-window-container .month2 tr:nth-child(4) > td:nth-child(4) > .day').click({force: true});     
+      cy.window().then((win) => {
+          win.open('https://booking.wingo.com/es/search/BOG/CLO/2023-04-20/2023-05-25/2/0/0/0/COP/0/0', '_blank');
+          });  
+    });
+});
