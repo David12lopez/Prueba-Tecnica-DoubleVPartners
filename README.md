@@ -4,7 +4,8 @@ Este proyecto de prueba realizado por David Alexander López Manrique, en el que
 1. Clonar el repositorio
 2. Abrir la terminal y dirigete al directorio raíz del proyecto
 3. Ejecuta el comando "npm install"
-4. Luego, ejecuta el comando " npx cypress run"
+4. Luego, ejecuta el comando " npx cypress open"
+5. Se ejecuta el proyecto a testear
 # Licencias
 Cypress versión 12.7.0
 # Contacto 
